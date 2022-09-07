@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Operaciones Basicas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" 
+              href="webjars/bootstrap/5.1.0/css/bootstrap.min.css" type="text/css" />
+    </head>
+    <body>
+        <br>
+        <h1> Operaciones Basicas</h1>
+        <div class="container mt-5">
+            <form name="form" action="OperacionesBasicas.jsp" method="post">
+                <div class="mb-3">
+                    <label class="form-label">Numero 1</label>
+                    <input type="number" name="n1" class="form-control" id="exampleInputEmail1">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Numero 2</label>
+                    <input type="number" name="n2" class="form-control" id="exampleInputPassword1">
+                </div>
+                <label class="form-label">Operacion</label>
+                <select name="oper" class="form-select">
+                    <option name="s" value="s" >Suma</option>
+                    <option name="r" value="r" >Resta</option>
+                    <option name="m" value="m" >Multiplicacion</option>
+                    <option name="d" value="d" >Division</option>
+                </select>
+                <br>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                <a type="button" class="btn btn-danger" href="index.html">Atras</a>
+            </form>
+        </div>
+    </body>
+</html>
